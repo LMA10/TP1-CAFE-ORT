@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+body { 
+    width: 100%;
+    height: 100vh;
+    min-width: 100%;
+    background: url(../Image/Coffee.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Source Sans Pro';
+}
+
+.logo {
+    float:left;
+    color: #F6CE97; 
+    font-size: 22px;
+    line-height: 80px;
+    font-weight: bold;
+    padding: 0 6em;
+    letter-spacing: 1px;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+
+.menu {
+    float: right;
+    line-height: 50px;
+    margin: 0 6em;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+.menu ul li a:hover{
+    color:#F6CE97;
+}
+
+.menu ul li:nth-child(5) a:hover{
+    background-color: #fff;
+}
+
+ul li:nth-child(5) a {
+    color:#F6CE97; 
+    border: 1px solid #F6CE97;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+
+.header {   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header table {
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.header h1 {
+    color:#fff;
+    font-size: 40px;
+    font-weight: 400px;
+}
+
+.header p {
+    color: #fff;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.header button {
+    color: #fff;
+    background: #211112;
+    padding: 18px 36px;
+    border:none;
+    font-size: 14px;
+    margin-top:40px;
+}
+
+.header button:hover{
+    transition: 1s;
+    color:#825A27;
+    background-color: #BCBDA5;    
+}
